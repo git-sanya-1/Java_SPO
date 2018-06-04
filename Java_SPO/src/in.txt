@@ -1,3 +1,31 @@
+list type List;
+hash type HashSet;
+a type Variable;
 b type Variable;
-b:=5;
-println(b);
+a := ( 5 + 12 ) * (80 / 12) + 5 ;
+list.add(8);
+list.add(5);
+list.add(5);
+list.add(6);
+println(list);
+hash.add(18);
+hash.add(8);
+hash.add(15);
+hash.add(2);
+hash.add(28);
+hash.contains(8);
+count type Variable;
+count:=3;
+while(count<5){
+count := count+1;
+list.add(15555);
+hash.add(25);
+hash.remove(24);
+hash.remove(25);
+list.remove(5);
+println(a);
+println(list);
+}
+
+
+
